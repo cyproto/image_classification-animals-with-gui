@@ -2,7 +2,7 @@
 
 ###### 1] Classifies 4 animal species. (Cat, dog, squirrel and monkey)
 
-###### 2] Requirements:[ python 3.x](https://realpython.com/installing-python/ " python 3.x"), [tensorflow](https://www.tensorflow.org/install/pip "tensorflow"), [tkinter](https://stackoverflow.com/questions/4783810/install-tkinter-for-python/4784123 "tkinter").
+###### 2] Requirements:[ python 3.x](https://realpython.com/installing-python/ " python 3.x"), [tensorflow 1.5.0](https://www.tensorflow.org/install/pip "tensorflow") (Use wheel packages to install tensorflow==1.5.0, [reference link](https://stackoverflow.com/questions/38896424/tensorflow-not-found-using-pip)), [PIL](https://stackoverflow.com/questions/20060096/installing-pil-with-pip), [tkinter](https://stackoverflow.com/questions/4783810/install-tkinter-for-python/4784123 "tkinter").
 
 ###### 3] Usage: `python ImageClassifier.py`. 
 ###### After you click on `Predict Something` , it will randomly pick any image from `test` directory and predict what it is.

@@ -1,3 +1,4 @@
+import PIL
 import tensorflow as tf, sys
 import tkinter as tk
 from PIL import Image,ImageTk
@@ -25,8 +26,8 @@ def dispimg():
 	return img
 
 def pred(imgfile):
-	image_path = "/home/cyproto/tf_files/test/"+imgfile
-
+	image_path = os.getcwd()+"/test/"+imgfile
+	
 	image_data = tf.gfile.FastGFile(image_path, 'rb').read()
 
 	label_lines = [line.rstrip() for line
